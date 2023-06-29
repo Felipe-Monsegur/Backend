@@ -74,12 +74,12 @@ class ProductManager {
 const myFirstProducts = new ProductManager();
 
 myFirstProducts.addProduct(
-  "Producto",
+  "Producto1",
   "Este es un producto de prueba",
-  200,
+  500,
   "imagen",
-  "abc123",
-  25
+  "001",
+  10
 );
 
 console.log("Desde getProducts:", myFirstProducts.getProducts());
